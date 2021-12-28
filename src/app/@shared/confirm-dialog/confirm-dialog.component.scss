@@ -1,0 +1,18 @@
+:host {
+  height: 100vh;
+  display: block;
+}
+
+::ng-deep.mat-card {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+
+  .mat-card-content {
+    flex: 1 1 auto;
+  }
+
+  .mat-card-actions {
+    flex: 0;
+  }
+}

@@ -1,0 +1,45 @@
+:host {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+
+.mat-sidenav {
+  min-width: 270px;
+  max-width: 28%;
+}
+
+.has-border {
+  border-right: 1px solid rgb(0 0 0 / 12%);
+}
+
+.mat-list {
+  padding-top: 0;
+}
+
+.mat-list-item {
+  text-decoration: none;
+
+  &:hover {
+    background: rgb(0 0 0 / 5%);
+  }
+}
+
+.menu-spacer {
+  flex: 1 1 auto;
+}
+
+.menu-button {
+  margin-right: 1rem;
+
+  &--end {
+    float: right;
+  }
+}
+
+.sidenav-close {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  z-index: 200;
+}
